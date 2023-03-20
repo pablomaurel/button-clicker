@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dojonary</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!------------NAVBAR------------>
+        <div class="row">
+            <div class="col-12">
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                    crossorigin="anonymous"></script>
+                <nav class="navbar navbar-expand-lg bg-body-secondary" style="width: 66.5rem;">
+                    <div class="container-fluid">
+                        <h1 class="navbar-brand" href="#">Dojonary</h1>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-primary btn-outline-primary" style="color: white;"
+                                onclick="login_logout(this)" type="button">Login</button>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!------------SECCIÓN IZQUIERDA------------>
+        <div class="row">
+            <div class="col-7 mb-4">
+                <div class="col-sm-6 mb-3 mb-sm-0 mt-4">
+                    <div class="card" style="width: 40rem;">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="card-body">
+                                    <h2 class="card-title">ninja</h2>
+                                    <h5 class="card-text" id="noun_1">noun</h5>
+                                    <p class="card-text" id="plural_2">Plural: ninjas</p>
+                                    <a href="#" class="btn btn-warning" style="width: 7rem;"
+                                        onclick="alert('Ninja was liked!')">13 likes</a>
+                                </div>
+                            </div>
+                            <div class="col-6 ">
+                                <div class="card-body">
+                                    <h5 class="card-text" id="texto_1">A practitioner skilled in the</h5>
+                                    <h5 class="card-text" id="texto_2"><a href="https://es.wikipedia.org/wiki/Jap%C3%B3n">Japanese</a> art of <a href=https://es.wikipedia.org/wiki/Ninjutsu>ninjutsu</a></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5 ">
+                <div class="col-sm-6 mb-3 mb-sm-0 mt-4">
+                    <div class="card mb-3" style="width: 25rem;">
+                        <div class="card-body">
+                            <h2 class="card-text">Dojonario is</h2>
+                            <h2 class="card-text">defined by <span>YOU</span></h2>
+                            <a href="#" class="btn btn-success mt-4 mb-2" onclick="remove_button(this)"
+                                style="width: 22rem;">Add Definition</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------SECCIÓN DERECHA------------>
+        <div class="row">
+            <div class="col-7 ">
+                <div class="col-sm-6 mb-3 mb-sm-0">
+                    <div class="card" style="width: 40rem;">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <div class="card-body">
+                                    <h2 class="card-title">ninja</h2>
+                                    <h5 class="card-text" id="noun_1">noun</h5>
+                                    <p class="card-text" id="plural_2">Plural: ninjas</p>
+                                    <a href="#" class="btn btn-warning" style="width: 7rem;"
+                                        onclick="alert('Ninja was liked!')">37 likes</a>
+                                </div>
+                            </div>
+                            <div class="col-6 ">
+                                <div class="card-body">
+                                    <h5 class="card-text" id="texto_1">A <a href="https://es.wikipedia.org/wiki/Programador">programer</a> who breaks</h5>
+                                    <h5 class="card-text" id="texto_2">down problems with <a href="https://es.wikipedia.org/wiki/Zen">zen</a>-likes</h5>
+                                    <h5 class="card-text" id="texto_3">focus</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

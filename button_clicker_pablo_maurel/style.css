@@ -1,0 +1,57 @@
+.navbar-brand {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+.card-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+.card-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card {
+    border-radius: 0;
+    border: solid black;
+}
+.btn {
+    border-radius: 0;
+    border: solid black;
+    box-shadow: 10px 10px 0px -5px rgba(0,0,0,1);
+-webkit-box-shadow: 10px 10px 0px -5px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 0px -5px rgba(0,0,0,1);
+}
+.form-control {
+    border-radius: 0;
+    border: solid black;
+}
+span {
+    font-weight: bold;
+}
+#noun_1 {
+    font-size:25px;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+#noun_2 {
+    font-size:25px;
+    font-weight: bold;
+}
+#plural_1 {
+    font-size:20px;
+}
+#plural_2 {
+    font-size:20px;
+}
+#texto_1 {
+    padding-top: 4rem;
+    font-weight: bold;
+    font-size: 19px;
+}
+#texto_2 {
+    font-weight: bold; 
+    font-size: 19px;   
+}
+#texto_3 {
+    font-weight: bold;
+    font-size: 19px;    
+}
